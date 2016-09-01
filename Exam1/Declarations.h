@@ -18,7 +18,7 @@
 #define nDebugEnable        1
 #define print(x)            if(nDebugEnable){(x);}
 
-
+extern NSDictionary *mjsonGeo;
 @interface Declarations : NSObject
 
 extern float mLatitude, mLongitude;

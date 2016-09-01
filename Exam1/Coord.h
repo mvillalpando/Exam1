@@ -1,5 +1,5 @@
 //
-//  Parser.h
+//  Coord.h
 //  Exam1
 //
 //  Created by Carlos E. Villalpando on 8/31/16.
@@ -7,10 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Declarations.h"
 
-@interface Parser : NSObject
-
-+ (ObjectResponse *)parseGeoObject;
-
+@interface Coord : NSObject
+@property (nonatomic) float lon;
+@property (nonatomic) float lat;
 @end
